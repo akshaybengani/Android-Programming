@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akshaybengani.androidbasics.relativelayoutassignment">
+
+    <ImageView
+        android:id="@+id/appicon_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/PebbleBeach_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Pebble Beach"
+        android:layout_toRightOf="@+id/appicon_imageview"
+        />
+
+    <TextView
+        android:id="@+id/Califonia_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PebbleBeach_textview"
+        android:layout_toEndOf="@+id/appicon_imageview"
+        android:layout_toRightOf="@+id/appicon_imageview"
+        android:text="Califonia"
+
+        />
+    <TextView
+        android:id="@+id/duration_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Califonia_textview"
+        android:layout_toEndOf="@+id/appicon_imageview"
+        android:text="10 miles away"
+        />
+
+
+
+</RelativeLayout>
+

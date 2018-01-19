@@ -1,0 +1,11 @@
+Java Class
+
+==============1===============	
+
+@override word is used to override the previously created function by adding data in it.
+
+example
+While we create activity the onCreate function is created by default in the liberary but we are going to modify that therefore we need to overide it.
+
+
+

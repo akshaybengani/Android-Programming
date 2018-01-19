@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akshaybengani.androidbasics.FinalProject">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingHorizontal="50dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/julogo_imageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cosec_logo5"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JU- Mess"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/julogo_imageview"
+            android:layout_toEndOf="@+id/julogo_imageview"
+            android:textSize="20dp"
+            android:paddingTop="30dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/bottleship"
+            android:scaleType="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JU-Mess the only organisation in Vidhani delievers delecious quality food. You will never find such a tasty food anywhere else."
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So why are u waiting for just Rs 50 per person and enjoy the delecious food at JU-MESS"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Contact"
+                 android:layout_marginTop="10dp"
+                 android:textAlignment="center"
+                    android:textSize="30dp"
+                 android:textColor="@android:color/black"
+                 />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp" >
+
+                        <ImageView
+                            android:id="@+id/phone_imageview"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/phone"
+
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="91+7737929302"
+                            android:layout_marginLeft="20dp"
+                             android:paddingTop="10dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/email_imageview"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/gmail"
+
+
+                            />
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/email_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="akshaybengani@gmail.com"
+                            android:layout_marginTop="10dp"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

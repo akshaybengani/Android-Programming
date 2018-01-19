@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akshaybengani.androidbasics.relatetootherviews">
+
+    <TextView
+        android:id="@+id/ben_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Ben "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/lyra_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lyra "
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:id="@+id/jennie_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jennie"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/kunal_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kunal "
+        android:textSize="20dp"
+        android:layout_toLeftOf="@+id/ben_textview"
+        />
+    <TextView
+        android:id="@+id/omoju_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Omoju"
+        android:textSize="20dp"
+        android:layout_above="@+id/jennie_textview"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/kagure_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Kagure"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/ben_textview"
+        />
+    <TextView
+        android:id="@+id/natalie_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natalie"
+        android:textSize="20dp"
+        android:layout_above="@+id/lyra_textview"
+        />
+    <TextView
+        android:id="@+id/me_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Me"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/lyra_textview"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/amy_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amy"
+        android:textSize="20dp"
+        android:layout_above="@+id/omoju_textview"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
