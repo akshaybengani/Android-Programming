@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "786027637040",
+    "firebase_url": "https://scapark-734b5.firebaseio.com",
+    "project_id": "scapark-734b5",
+    "storage_bucket": "scapark-734b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786027637040:android:cd7fd7c16ff83b1e",
+        "android_client_info": {
+          "package_name": "com.anshulgoyal.scapark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786027637040-ee2gptflmprgc13717cs2q4ag1v5soej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anshulgoyal.scapark",
+            "certificate_hash": "702763dab0ad94fc4c7108fd625803cd41058d73"
+          }
+        },
+        {
+          "client_id": "786027637040-ed035oar1b0kdhoh70nal88n3d55ta67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyD2KvqQ2bZE8TYl7KpVDfeyrTzIOM55A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786027637040-ed035oar1b0kdhoh70nal88n3d55ta67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
